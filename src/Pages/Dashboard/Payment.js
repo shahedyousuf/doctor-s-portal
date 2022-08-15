@@ -11,7 +11,7 @@ const stripePromise = loadStripe('pk_test_51L0e8eF8Y3U94hmL3maFQWGvNoyI4PsIYpdYY
 const Payment = () => {
     const { id } = useParams();
 
-    const url = `https://fierce-bastion-47234.herokuapp.com/booking/${_id}`;
+    const url = `https://fierce-bastion-47234.herokuapp.com/booking/${id}`;
     const { data: appointment, isLoading } = useQuery(['booking', id], () => fetch(url, {
         method: 'GET',
         headers: {
