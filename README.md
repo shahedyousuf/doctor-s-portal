@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Doctor portal
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Doctor portal](https://doctor-portal-99fe8.netlify.app/).
 
 ## Available Scripts
 
